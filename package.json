@@ -1,9 +1,6 @@
 {
    "name": "pc-commerce-shop",
    "version": "1.0.0",
-   "engines": {
-      "node": "19.6.0"
-   },
    "description": "",
    "main": "server/server.js",
    "scripts": {
