@@ -15,7 +15,10 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Nav from './components/Nav';
 import { StoreProvider } from './utils/GlobalState';
+<<<<<<< HEAD
 import Success from './pages/Success';
+=======
+>>>>>>> aa9555174f0cb4a525242493edcdb44bcc81bab9
 import OrderHistory from './pages/OrderHistory';
 
 const httpLink = createHttpLink({
@@ -58,10 +61,13 @@ function App() {
                 element={<Signup />} 
               />
               <Route 
+<<<<<<< HEAD
                 path="/success" 
                 element={<Success />} 
               />
               <Route 
+=======
+>>>>>>> aa9555174f0cb4a525242493edcdb44bcc81bab9
                 path="/orderHistory" 
                 element={<OrderHistory />} 
               />
